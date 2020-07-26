@@ -1,18 +1,10 @@
 # pytorchrecsys
-Recommender systems in PyTorch
-This repository shows you how to implement a Recommender System in PyTorch from scratch.
+<h1> A Pytorch implementation of a Movie rating prediction and recommendation system  </h1>
 
-Prepare the dataset
-The file u.data is the one picked from MovieLens 100K archive. Run the following command to get the train and test split for the dataset.
+<h2> Code is provided to  </h2> 
+1 . downlaod the user ratings from the movielense dataset (http://files.grouplens.org/datasets/movielens) </br>
+2.  preview the data(movies and ratings) in a user friendly manner  </br>
+3.  create the dataset which will be used for the Training phase </br>
+4.  define an embedding network which will be used for the predictions (this is the recommender) </br>
+5.  define metrics and visuale the training of the recommender. </br>
 
-python train_test_split.py
-
-Run the Item Popularity Model
-The following command runs the model and prints the metrics
-
-python itempop.py
-
-Run the deep learning based Model
-The following command runs the model and prints the metrics
-
-python MLP.py
