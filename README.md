@@ -1,5 +1,5 @@
 # pytorchrecsys
-<h1> A Pytorch implementation of a Movie rating prediction and recommendation system  </h1>
+A Pytorch implementation of a Movie rating prediction and recommendation system
 
 <h2> Code is provided to  </h2> 
 1 . downlaod the user ratings from the movielense dataset (http://files.grouplens.org/datasets/movielens) </br>
